@@ -53,7 +53,7 @@ package() {
   depends=('omarchy' 'limine' 'limine-mkinitcpio-hook>=1.39.0-2' 'limine-snapper-sync' 'asahi-scripts'
            'm1n1' 'uboot-asahi' 'asahi-alarm-keyring'
            'bash' 'binutils' 'btrfs-progs' 'coreutils' 'cpio' 'cryptsetup' 'diffutils' 'gawk' 'gnupg' 'grep'
-           'gum' 'gzip' 'kbd' 'mkinitcpio' 'sed' 'systemd' 'util-linux')
+           'gum' 'gzip' 'kbd' 'mkinitcpio' 'python' 'sed' 'systemd' 'util-linux')
 
   "$srcdir/boot/install" "$pkgdir"
   # Once the source drops its own Plymouth fragment (omacom/omarchy-mac#544),
